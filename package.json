@@ -28,7 +28,7 @@
   },
   "scripts": {
     "clean": "rm -rf ./lib",
-    "prebuild": "npm clean",
+    "prebuild": "npm run clean",
     "build": "tsc --build \"./tsconfig.json\"",
     "copy-files": "copyfiles -u 1 src/style/base.css lib/",
     "postbuild": "npm run copy-files",
