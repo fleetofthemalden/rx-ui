@@ -3,31 +3,12 @@
 :root {
   --default-font: "Open Sans";
 
-  --primary-color-1: #0058a6;
-
+  --primary-color: #0058a6;
   --neutral-color-2: #e1e2e6;
-  --neutral-color-4: #333333;
 
   --white: #ffffff;
   --charcol-black: #292d33;
   --silver: #b8b8b8;
-  --gull-grey: #97a4b5;
-  --carnation: #fc5b5a;
-  --mariner: #2570b2;
-  --bombay-grey: #b0b1b2;
-  --mercury: #e6e6e6;
-  --alabaster: #fafafa;
-  --mine-shaft: #383838;
-  --geyser: #dee2e6;
-  --boulder: #777777;
-  --catskill-white: #ebf6f6;
-  --sushi: #6bb536;
-  --light-gray: #aaaaaa;
-  --alto: #d4d4d4;
-  --truepill-dark: #33a6b8;
-  --truepill-light: #44bdd0;
-
-  --ad-button-radius: 4px;
 }
 
 * {
@@ -54,7 +35,7 @@ a,
 a:focus,
 a:hover {
   text-decoration: none;
-  color: var(--primary-color-1);
+  color: var(--primary-color);
   font-size: 16px;
   font-weight: 600;
 }
